@@ -1,0 +1,24 @@
+#header{
+
+background-color: #5A020Cce;
+color: #fff;
+}
+#branding h1 , #branding img{
+    margin: 6px;
+}
+#head{
+    color: #fff !important;
+}
+.module caption , div.breadcrumbs , .selector-chosen h2 , .selector-available h2 , .module h2{ 
+
+    background-color:#9f202fce !important;
+    color: #fff !important;
+}
+.button, input[type=submit], input[type=button] , .submit-row input[type=submit]{
+    background-color: #9f202fce;
+}
+.object-tools a:visited{
+    background-color:#9f202fce ;
+}
+
+

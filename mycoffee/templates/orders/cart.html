@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Cart{% endblock %}
+
+{% block content %}
+
+<div class="my-form container p-5 my-5 rounded border border-warning">
+    <h4 class="alert alert-warning">
+        Cart   
+    </h4>
+    <hr>
+    {% if order %}
+    <h5>
+        Full Name:{{order.user.first_name|add:' '|add:order.user.last_name}}
+    </h5>
+
+    {% else %}
+    <h4 class="alert alert-warning">No Order here</h4>
+
+    {% endif %}
+ 
+</div>
+
+
+{% endblock  %}
